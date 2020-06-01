@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="band1">#D81B60</color>
+    <color name="band2">#D81B60</color>
+    <color name="band3">#D81B60</color>
+    <color name="band4">#D81B60</color>
+    <color name="Heading">#F1406E</color>
+</resources>

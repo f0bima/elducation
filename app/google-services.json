@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "602108110840",
+    "firebase_url": "https://elducation-d878a.firebaseio.com",
+    "project_id": "elducation-d878a",
+    "storage_bucket": "elducation-d878a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602108110840:android:609eec6a563885cc37d80d",
+        "android_client_info": {
+          "package_name": "com.example.elducation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602108110840-kvr0okhav7s423vhs4gnkigi0th6jogl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.elducation",
+            "certificate_hash": "4473c14ea4cc75304c3c02fdc31553bd881fcbfd"
+          }
+        },
+        {
+          "client_id": "602108110840-u8qemcnl8j56o668cu8941jdh7g9lejr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZYG4J2kxfIvqWXAI-IFItg5Me1RVu2OI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602108110840-u8qemcnl8j56o668cu8941jdh7g9lejr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

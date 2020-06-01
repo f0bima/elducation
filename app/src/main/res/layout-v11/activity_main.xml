@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleTextAppearance="@android:color/transparent"
+            android:fitsSystemWindows="true">
+
+            <ImageView
+                app:layout_collapseMOde="parallax"
+                android:src="@drawable/header"
+                android:contentDescription="ElDucation"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                />
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                android:popupTheme="@style/ThemeOverlay.Appcompat.Light"
+
+                />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:paddingHorizontal="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="end|bottom"-->
+<!--        android:layout_margin="16dp"-->
+<!--        android:src="@drawable/ic_android"-->
+<!--        app:fabSize="normal"-->
+<!--        app:borderWidth="0dp"-->
+<!--        android:backgroundTint="@color/colorPrimary"-->
+<!--        app:elevation="6dp"-->
+<!--        android:id="@+id/Capture"-->
+<!--        />-->
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

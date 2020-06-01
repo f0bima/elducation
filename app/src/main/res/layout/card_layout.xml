@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/cardview_dark_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/image_comment"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentLeft="true"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/p4"
+            android:elevation="2dp"
+            app:civ_border_color="#FF000000"/>
+
+        <TextView
+            android:id="@+id/nama_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text 1"
+            android:textSize="18sp"
+            android:textColor="#c3c3c3"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/image_comment"
+            android:layout_toEndOf="@id/image_comment"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            />
+
+        <TextView
+            android:id="@+id/comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi"
+            android:textSize="15sp"
+            android:textColor="#a9a9a9"
+            android:layout_toRightOf="@id/image_comment"
+            android:layout_toEndOf="@id/image_comment"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/nama_comment"
+            tools:ignore="RtlHardcoded" />
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:paddingHorizontal="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_below="@id/comment"
+            android:background="#cecece"
+            />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
